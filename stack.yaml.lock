@@ -34,18 +34,18 @@ packages:
     commit: 78770663c8b5309522db27dd290de5aee07c5366
 - completed:
     cabal-file:
-      size: 3399
-      sha256: c9030f19a78e9bfd3b2fc2e688af7b2a0a06b7cca5a9b783d8cfd71e5b42cb63
+      size: 3390
+      sha256: 7d9109f979e1c1f166c46a0b2cfc812a3c7e95bd6de24c92382473fcec50df02
     name: network-transport-tcp
     version: 0.6.0
     git: https://github.com/adjoint-io/network-transport-tcp.git
     pantry-tree:
       size: 1986
-      sha256: 1f169b0b961a6a942748b92cbed3b2e8e358041f8f2fb08f84ce332bdb0aca45
-    commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
+      sha256: 3a21594222329cbc5be7496ed17fa7b480afbf45667e9bf8b3beef1e575b8a74
+    commit: fda9660e55d22cb8c406331483605db057b08c0e
   original:
     git: https://github.com/adjoint-io/network-transport-tcp.git
-    commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
+    commit: fda9660e55d22cb8c406331483605db057b08c0e
 - completed:
     hackage: rematch-0.2.0.0@sha256:86019f4d6a4347e1291a0a9f85ba6324e1447e2b93d75958e59c24212e9d8178,1245
     pantry-tree:

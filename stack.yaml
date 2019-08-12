@@ -12,7 +12,7 @@ extra-deps:
 - git: https://github.com/adjoint-io/distributed-process-systest.git
   commit: 78770663c8b5309522db27dd290de5aee07c5366
 - git: https://github.com/adjoint-io/network-transport-tcp.git
-  commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
+  commit: fda9660e55d22cb8c406331483605db057b08c0e
 - rematch-0.2.0.0
 - exceptions-0.10.0
 - distributed-static-0.3.9
