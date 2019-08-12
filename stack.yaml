@@ -13,7 +13,7 @@ extra-deps:
   commit: b4a6b646adb6c81725ddac4babcfc21b86944d98
 - rematch-0.2.0.0
 - exceptions-0.10.0
-- network-transport-tcp-0.6.0
+- network-transport-tcp-0.6.0  # works locally without it but doesn't pass CI
 - distributed-static-0.3.9
 
 # Override default flag values for local packages and extra-deps
