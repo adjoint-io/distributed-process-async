@@ -9,11 +9,12 @@ packages:
 extra-deps:
 - git: https://github.com/haskell-distributed/distributed-process.git
   commit: 660d554f6acd2dba8b605c84e8fa69e45708bc14
-- git: https://github.com/haskell-distributed/distributed-process-systest.git
-  commit: b4a6b646adb6c81725ddac4babcfc21b86944d98
+- git: https://github.com/adjoint-io/distributed-process-systest.git
+  commit: 78770663c8b5309522db27dd290de5aee07c5366
+- git: https://github.com/adjoint-io/network-transport-tcp.git
+  commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
 - rematch-0.2.0.0
 - exceptions-0.10.0
-- network-transport-tcp-0.6.0  # works locally without it but doesn't pass CI
 - distributed-static-0.3.9
 
 # Override default flag values for local packages and extra-deps

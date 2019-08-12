@@ -20,18 +20,32 @@ packages:
     commit: 660d554f6acd2dba8b605c84e8fa69e45708bc14
 - completed:
     cabal-file:
-      size: 1818
-      sha256: bd7ac62d284de6b3088339eba61dd9c013a9a076597c7d3432b4b2b3ef0a3d76
+      size: 1648
+      sha256: 9832c9840e4a2b9d6ea270cf6ce5333a5f6f9f51dbf9c39d5188312218b6757e
     name: distributed-process-systest
     version: 0.2.0
-    git: https://github.com/haskell-distributed/distributed-process-systest.git
+    git: https://github.com/adjoint-io/distributed-process-systest.git
     pantry-tree:
-      size: 632
-      sha256: b6db85a6531a042c7855604bbf8ee0cff58019a85b6b3781241d0a9426b5c933
-    commit: b4a6b646adb6c81725ddac4babcfc21b86944d98
+      size: 461
+      sha256: 287b3015f0034182f6542f4639c277a2f540b67686200f47058d07b3e384f91f
+    commit: 78770663c8b5309522db27dd290de5aee07c5366
   original:
-    git: https://github.com/haskell-distributed/distributed-process-systest.git
-    commit: b4a6b646adb6c81725ddac4babcfc21b86944d98
+    git: https://github.com/adjoint-io/distributed-process-systest.git
+    commit: 78770663c8b5309522db27dd290de5aee07c5366
+- completed:
+    cabal-file:
+      size: 3399
+      sha256: c9030f19a78e9bfd3b2fc2e688af7b2a0a06b7cca5a9b783d8cfd71e5b42cb63
+    name: network-transport-tcp
+    version: 0.6.0
+    git: https://github.com/adjoint-io/network-transport-tcp.git
+    pantry-tree:
+      size: 1986
+      sha256: 1f169b0b961a6a942748b92cbed3b2e8e358041f8f2fb08f84ce332bdb0aca45
+    commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
+  original:
+    git: https://github.com/adjoint-io/network-transport-tcp.git
+    commit: 030f3ea00c7e9d74b8ea26213ff3e5e0adf37c35
 - completed:
     hackage: rematch-0.2.0.0@sha256:86019f4d6a4347e1291a0a9f85ba6324e1447e2b93d75958e59c24212e9d8178,1245
     pantry-tree:
@@ -46,13 +60,6 @@ packages:
       sha256: 141993792cc6b0db48a8bb8ebbb255a3f0b0a21cd43eb77d5cef591514a60539
   original:
     hackage: exceptions-0.10.0
-- completed:
-    hackage: network-transport-tcp-0.6.0@sha256:077b733c97db7949d18d09877e847fae117cc6e4e5c35941442f52debbd32452,3298
-    pantry-tree:
-      size: 651
-      sha256: 25102c14bedca96694a2d410783fdde107e9059452e07b882b67ac309b313bc0
-  original:
-    hackage: network-transport-tcp-0.6.0
 - completed:
     hackage: distributed-static-0.3.9@sha256:0eb308ee416db4541cb5b4d2dff387e7c9394e6deaf76b7e829ce46add4448bc,2237
     pantry-tree:
